@@ -1,0 +1,15 @@
+#login{
+    position: relative;
+    top: 150px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(207, 80, 21);
+    color: whitesmoke;
+    font-size: 10px;
+    text-align: center;
+    padding: 5px;
+}

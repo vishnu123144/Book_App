@@ -1,0 +1,161 @@
+section{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(110, 3, 7);
+    /* background-color: rgb(207, 80, 21); */
+}
+
+
+#nav{
+    position: absolute;
+    
+    width: 100%;
+    background-color: rgb(207, 80, 21);
+    color: white;
+    font-size: 15pt; 
+    text-align: center;
+    padding: 2px;
+}
+ #logo{
+    position: relative;
+    left: 20px;
+    
+    font-size: 40px;
+ 
+    
+}
+#title{
+    position: relative;
+    left: 40px;
+    font-size: 20pt;
+    font-weight: 700;
+}
+
+container{
+    position: relative;
+    top: 200px;
+    left: 200px;
+    z-index: -2;
+}
+h1 {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.625em;
+    position: relative;
+    animation: moveToLeft 5s;
+
+}
+h5{
+    color:#fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.625em;
+    position: relative;
+    margin-left: 10px;
+    animation: moveToRight 4s;
+
+}
+
+@keyframes moveToLeft{
+    0%{
+        transform: translate(120px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+@keyframes moveToRight{
+    0%{
+        transform: translate(-120px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+
+
+
+
+
+#img{
+    position: relative;
+    left:850px;
+    bottom: 80px;
+    animation: moveToLeft 30s;
+}
+section2{
+    position: relative;
+    right: 420px;
+    bottom: 170px;
+    font-size: 20px;
+}
+ #home{
+    position: relative;
+    right: 370px;
+}
+
+#btn{
+position: relative;
+margin-right: 20px;
+
+
+} 
+
+#reg{
+    border: 1px solid brown;
+    padding: 0 5px;
+    border-radius: 15px;
+    margin-right: 20px;
+    background-color:rgb(131, 96, 2);
+color: white;
+animation: animateBtn 2s;
+animation-delay: 2s;
+animation-fill-mode: backwards;
+}
+
+#log{
+    border: 1px solid brown;
+    border-radius: 15px;
+    padding: 0px 15px;
+    background-color:rgb(218, 107, 3);
+color:white;
+animation: ab 2s;
+animation-delay: 4s;
+animation-fill-mode:backwards;
+
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(207, 80, 21);
+    color: whitesmoke;
+    font-size: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+@keyframes animateBtn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes ab{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
